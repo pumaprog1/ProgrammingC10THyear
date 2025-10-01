@@ -9,6 +9,8 @@ Welcome to GDB Online.
 #include <iostream>
 int main() {
     int kmI,kmF,GasolinaGasta,resultado;
+    std::cout<<"Quantos litros?";
+    std::cin>>GasolinaGasta;
     
     std::cout<< "Kilometros iniciais";
     std::cin>>kmI;
@@ -18,7 +20,7 @@ int main() {
     
     resultado =(GasolinaGasta* 100 ) / (kmF-kmI);
     
-    std::cout<<"o veiculo gasta"<<resultado<<"litros gastos";
+    std::cout<<"o veiculo gasta"<<resultado<<"litros ";
     
     
     
