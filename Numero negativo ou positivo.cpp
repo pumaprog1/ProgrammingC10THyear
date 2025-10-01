@@ -16,8 +16,6 @@ int main()
    
    if(numero>0)
    std::cout<<"numero positivo";
-   if(numero==0)
-   std::cout<<"numero neutro";
    else
    std::cout<<"numero negativo";
 }
